@@ -826,7 +826,7 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     -webkit-backdrop-filter: blur(6px);
     width: 100vw;
     padding: 10px 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     }
@@ -853,7 +853,7 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
 
 @media (max-height: 642px){
     .bg-logo{
-     visibility: hidden;
+    visibility: hidden;
 }
 }
 
