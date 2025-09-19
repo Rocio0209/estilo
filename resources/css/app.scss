@@ -819,8 +819,8 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     background: linear-gradient(
     to right,
     rgba(149, 151, 153, 0.7) 0%,         /* completamente transparente a la izquierda */
-        rgba(225,225,225,0.7) 50%,      /* opaco al centro */
-        rgba(149, 151, 153,0.7) 100%        /* completamente transparente a la derecha */
+    rgba(225,225,225,0.7) 50%,      /* opaco al centro */
+    rgba(149, 151, 153,0.7) 100%        /* completamente transparente a la derecha */
     );
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
@@ -839,8 +839,20 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     }
 }
 
-@media (min-height:847px){
-    // .line2{
-    // position: absolute;
-    // top: 130px;}
+@media (min-height:1000px){
+    .line2{
+    position: absolute;
+    top: 130px;}
+}
+
+@media (min-height:1280px){
+    .line2{
+    position: absolute;
+    top: 250px;}
+}
+
+@media (max-height: 642px){
+    .bg-logo{
+     visibility: hidden;
+}
 }
