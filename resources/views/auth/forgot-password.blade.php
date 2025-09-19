@@ -19,10 +19,10 @@
         </x-slot>
 
         <x-slot name="titulo">
-            <div class="bg-institucional2 " style="border-radius: 10px 10px 0 0"><h4 class="text-white color-institucional1 my-0 px-3 font-institucional-b mt-2" >Restablecer Contraseña</h4></div>
+            <div class="bg-institucionalfondo " style="border-radius: 10px 10px 0 0"><h4 class="text-black my-0 px-3 font-institucional-b mt-2" >Restablecer Contraseña</h4></div>
         </x-slot>
 
-        <div class="mb-4 text-sm text-white">
+        <div class="mb-4 text-sm text-black">
             {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
         </div>
 
@@ -38,13 +38,13 @@
             @csrf
 
             <div class="block">
-                <x-label-white for="email" value="{{ __('Email') }}" />
+                <x-label-black for="email" value="{{ __('Email') }}" />
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             </div>
 
             <div class="flex items-center justify-end mt-4">
                 <x-button>
-                    {{ __('Email Password Reset Link') }}
+                    <div class="text-black">{{ __('Email Password Reset Link') }}</div>
                 </x-button>
             </div>
         </form>
