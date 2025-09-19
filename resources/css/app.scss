@@ -1,0 +1,846 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+//Fontawesome
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+//Boostratp
+@import 'bootstrap/scss/bootstrap';
+
+
+/********* (css institucional) *********/
+// @import "https://ibhidalgo.org/cdn/institucional.css";
+
+/********* (css institucional) *********/
+/* Colores Institucionales */
+:root {
+    --colorInstitucional1: #235C4F; /*2025*/
+    --colorInstitucional2: #10312B; /*2025*/
+    --colorInstitucional3: #F3F3E6; /*2025*/
+    --colorInstitucional4: #BC955B; /*2025*/
+    --colorInstitucional5: #98989A;
+    --colorInstitucional6: #6F7271;
+    --colorInstitucional7: #A02142; /*2025*/
+    --colorInstitucional8: #691C32;
+    --colorInstitucional9: #efe4d2;
+    --colorInstitucional10: #cccccc;
+    --colorInstitucional11: #006657;
+    --colorInstitucionalAuxiliar1: #f3f3e7;
+    --colorInstitucionalAuxiliar2: #a3baad; /*2025*/
+    --colorInstitucionalAuxiliar3: #778d75; /*2025*/
+    --colorInstitucionalAuxiliar4: #aca8a3; /*2025*/
+    --colorInstitucionalLinksTable: #4E232E;
+}
+
+/*- Colores Institucionales -*/
+
+/* Fuentes Institucionales */
+@font-face {
+    font-family: "Institucional-Light";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Institucional-Regular";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Institucional-Black";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Institucional-Medium";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Institucional-Semibold";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Institucional-Bold";
+    src: url("https://ibhidalgo.org/cdn/fuentes/NotoSans/NotoSans-Bold.woff2") format("woff2");
+}
+
+/*- Fuentes Institucionales -*/
+
+/** Estilos para MenÃº **/
+header.institucional {
+    background: var(--colorInstitucional2) !important;
+    background-image: url(https://ibhidalgo.org/cdn/img/BarraTitulo.svg) !important;
+    background-repeat: no-repeat !important;
+    /* background-blend-mode: multiply; */
+    background-position: right !important;
+    /* Agregados */
+    background-blend-mode: initial !important;
+    background-size: cover !important;
+}
+
+nav.menuinstitucional {
+    background-color: var(--colorInstitucional10) !important;
+    padding: 1px !important;
+    color: var(--colorInstitucional1) !important;
+    background-image: url(https://ibhidalgo.org/cdn/img/LogoMenu.svg) !important;
+    background-repeat: no-repeat !important;
+    background-blend-mode: multiply;
+    background-position: right;
+    background-position-y: top;
+    background-size: cover !important;
+}
+
+a.nav-link {
+    color: var(--colorInstitucional2);
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: var(--colorInstitucional2) !important;
+}
+
+.nav-link.show {
+    background: var(--colorInstitucional2);
+    color: white !important;
+}
+
+a.activaMenu {
+    background-color: #f0f0f0 !important;
+    color: #000000 !important;
+    font-family: 'Institucional-Bold';
+    border-radius: 5px 5px 0 0;
+}
+
+a.nav-link:hover {
+    color: white !important;
+    background-color: var(--colorInstitucional2) !important;
+}
+
+/**- Estilos para MenÃº -**/
+
+/*Estilo Universal Body y HTML*/
+html,
+body {
+    font-family: "Institucional-Regular" !important;
+}
+
+/*Set de Fuentes*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Institucional-SemiBold" !important;
+}
+
+.font-institucional-sb {
+    font-family: "Institucional-SemiBold" !important;
+}
+
+.font-institucional-re {
+    font-family: "Institucional-Regular" !important;
+}
+
+.font-institucional-b {
+    font-family: "Institucional-Bold" !important;
+}
+
+.font-institucional-md {
+    font-family: "Institucional-Medium" !important;
+}
+
+/*-Set de Fuentes-*/
+
+/* Fondos Institucionales */
+.bg-institucionalescudo {
+    background-color: var(--colorInstitucional1);
+    background-image: url(../../public/img/Frame.svg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-blend-mode: initial !important;
+}
+
+.bg-institucional1 {
+    background-color: var(--colorInstitucional1) !important;
+}
+
+.bg-institucional2 {
+    background-color: var(--colorInstitucional2) !important;
+}
+
+
+.bg-institucional3 {
+    background-color: var(--colorInstitucional3) !important;
+}
+
+.bg-institucional4 {
+    background-color: var(--colorInstitucional4) !important;
+}
+
+.bg-institucional5 {
+    background-color: var(--colorInstitucional5) !important;
+}
+
+.bg-institucional6 {
+    background-color: var(--colorInstitucional6) !important;
+}
+
+.bg-institucional7 {
+    background-color: var(--colorInstitucional7) !important;
+}
+
+.bg-institucional8 {
+    background-color: var(--colorInstitucional8) !important;
+}
+
+.bg-institucional9 {
+    background-color: var(--colorInstitucional9) !important;
+}
+
+.bg-institucional10 {
+    background-color: var(--colorInstitucional10) !important;
+}
+
+.bg-institucional11 {
+    background-color: var(--colorInstitucional11) !important;
+}
+
+.bg-institucionalAuxiliar1 {
+    background-color: var(--colorInstitucionalAuxiliar1) !important;
+}
+
+.bg-institucionalAuxiliar2 {
+    background-color: var(--colorInstitucionalAuxiliar2) !important;
+}
+
+.bg-institucionalAuxiliar3 {
+    background-color: var(--colorInstitucionalAuxiliar3) !important;
+}
+
+.bg-institucionalAuxiliar4 {
+    background-color: var(--colorInstitucionalAuxiliar4) !important;
+}
+
+/*- Fondos Institucionales -*/
+
+/* colores fuente Institucionales */
+.color-institucional1 {
+    color: var(--colorInstitucional1) !important;
+}
+
+.color-institucional2 {
+    color: var(--colorInstitucional2) !important;
+}
+
+.color-institucional3 {
+    color: var(--colorInstitucional3) !important;
+}
+
+.color-institucional4 {
+    color: var(--colorInstitucional4) !important;
+}
+
+.color-institucional5 {
+    color: var(--colorInstitucional5) !important;
+}
+
+.color-institucional6 {
+    color: var(--colorInstitucional6) !important;
+}
+
+.color-institucional7 {
+    color: var(--colorInstitucional7) !important;
+}
+
+.color-institucional8 {
+    color: var(--colorInstitucional8) !important;
+}
+
+.color-institucional9 {
+    color: var(--colorInstitucional9) !important;
+}
+
+.color-institucional10 {
+    color: var(--colorInstitucional10) !important;
+}
+
+.color-institucional11 {
+    color: var(--colorInstitucional11) !important;
+}
+
+.color-institucionalAuxiliar1 {
+    color: var(--colorInstitucionalAuxiliar1) !important;
+}
+
+.color-institucionalAuxiliar2 {
+    color: var(--colorInstitucionalAuxiliar2) !important;
+}
+
+.color-institucionalAuxiliar3 {
+    color: var(--colorInstitucionalAuxiliar3) !important;
+}
+
+.color-institucionalAuxiliar4 {
+    color: var(--colorInstitucionalAuxiliar4) !important;
+}
+
+/*- colores fuente Institucionales -*/
+/********* (css institucional) *********/
+
+// DataTables
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css';
+@import 'datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css';
+@import 'datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css';
+@import 'datatables.net-select-bs5/css/select.bootstrap5.css';
+
+//Select2
+$s2bs5-border-color: $border-color;
+@import "/node_modules/select2/dist/css/select2.css";
+@import "/node_modules/select2-bootstrap-5-theme/src/include-all";
+
+//DriverJS
+@import '/node_modules/driver.js/dist/driver.css';
+
+/* Personalizando los estilos de DriverJS */
+.driver-popover {
+    color: white;
+    background-color: var(--colorInstitucional1);
+}
+
+.driver-popover * {
+    font-family: "Institucional-SemiBold" !important;
+}
+
+.driver-popover-title { 
+    font: 19px;
+}
+
+.driver-popover-description {
+    font: 14px;
+}
+
+.driver-popover-progress-text {
+    color: white;
+}
+/* Personalizando los estilos de DriverJS */
+
+
+/* Cambiar colores de los datatables */
+:root {
+    --dt-row-selected: 221,201,163;
+    --dt-row-selected-text: 0,0,0;
+}
+/*- Cambiar colores de los datatables -*/
+
+/*Incrementar el área util del body en pantallas XXL*/
+@media (min-width: 1399.99px) {
+    div.container{
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        max-width: 90%!important
+    }
+
+    div.headerpagina{
+        margin-left: 5%!important;
+        margin-right: 5%!important;
+        max-width: 90%!important
+    }
+}
+
+/*Estilos para los Formularios*/
+label{
+    font-weight: bold!important;
+}
+
+/*Estilo para tablas*/
+table{
+    width: 100%!important;
+    font-size: 12px;
+}
+
+table thead th{
+    font-size: 12px;
+    background-color: var(--colorInstitucional1)!important;
+    color:white!important;
+}
+
+table tfoot th{
+    font-size: 12px;
+    background-color: var(--colorInstitucional2)!important;
+    color:white!important;
+}
+
+table.dataTable a {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+table.dataTable th {
+    font-size: 14px;
+}
+
+/***********************Style para checkbox***********************/
+[type='checkbox']{
+    border-color: #6b7280!important;
+}
+
+/*Input checkbox style*/
+.input_wrapper{
+    position: relative;
+    cursor: pointer;
+}
+
+/*caja desactivada*/
+.input_wrapper input[type="checkbox"]{
+    width: 60px;
+    height: 28px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f7c9c4;
+    border-radius: 12px;
+    position: relative;
+    outline: 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+/*boton desactivado*/
+.input_wrapper input[type="checkbox"]:not(:checked):after{
+    position: absolute;
+    content: "no";
+    text-align: center;
+    color: white;
+    // line-height: 25px;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 26px;
+    background: var(--bs-danger);
+    border-radius: 11px 0 0 11px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    padding-top: 1px;
+}
+
+/*boton activado*/
+.input_wrapper input[type="checkbox"]:checked:after{
+    position: absolute;
+    content: "si";
+    text-align: center;
+    color: white;
+    // line-height: 25px;
+    left: 28px;
+    width: 30px;
+    height: 26px;
+    background: var(--bs-success);
+    /*z-index: 2;*/
+    border-radius: 0 11px 11px 0;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    padding-top: 1px;
+}
+
+/*caja activado*/
+.input_wrapper input[type="checkbox"]:checked{
+    background: #bee6cf;
+}
+
+/*iconos*/
+.input_wrapper input[type="checkbox"] + label .icon, .input_wrapper input[type="checkbox"]:not(:checked) + label .icon:before, .input_wrapper input[type="checkbox"]:checked + label .icon:after{
+    position: absolute;
+    left:0;
+    top:1px;
+    cursor:pointer;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+/*icono uncheck rojo*/
+[type="checkbox"]:not(:checked) + label .icon:before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f057";
+    color: var(--bs-danger);
+    margin-left: 36px;
+    margin-top: -2px;
+}
+
+/*icono check verde*/
+[type="checkbox"]:checked + label .icon:after {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f058";
+    color: var(--bs-success);
+    margin-left: 6px;
+    margin-top:-2px;
+}
+/***********************Style para checkbox***********************/
+
+/*********************Estilos para notificación de errores*********************/
+div.tiperror{
+    color:red;
+    border: 1px solid red;
+    border-radius: 7px;
+    margin-top: 5px;
+    padding: 1px 2px;
+}
+
+div.tiperror>ul{
+    margin-bottom: 5px;
+}
+
+/*Estilo para indicar error en algun campo de Forms*/
+.errorstyle{
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1),0 0 10px rgba(200,10,16,0.5);
+}
+
+.align-center{
+    margin: 0, auto;
+}
+
+/* Menú */
+a.activaMenu{
+    background-color:#ffffff !important;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+/*Div de Precarga para bloqueos de pantalla*/
+#preCarga{
+    z-index: 1001;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    text-align: center;
+    color: white;
+}
+
+#preCargaDiv{
+    z-index: 100000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    background: rgba(0,0,0,.8);
+}
+/*-Div de Precarga para bloqueos de pantalla-*/
+
+
+/*------------************Style Modales Bootstrap--------************----*/
+
+/****Colores de encabezados****/
+.modal-header.success{
+    border-top: solid 5px var(--bs-success);
+}
+
+.modal-header.danger{
+    border-top: solid 5px var(--bs-danger);
+}
+
+.modal-header.primary{
+    border-top: solid 5px var(--bs-primary);
+}
+
+.modal-header.secondary{
+    border-top: solid 5px var(--bs-secondary);
+}
+
+.modal-header.warning{
+    border-top: solid 5px var(--bs-warning);
+}
+
+/****Colores de bordes****/
+.modal-content.b2success{
+    border: 2px solid var(--bs-success);
+}
+
+.modal-content.b2danger{
+    border: 2px solid var(--bs-danger);
+}
+
+.modal-content.b2primary{
+    border: 2px solid var(--bs-primary);
+}
+
+.modal-content.b2secondary{
+    border: 2px solid var(--bs-secondary);
+}
+
+.modal-content.b2warning{
+    border: 2px solid var(--bs-warning);
+}
+
+/***************Ajuste de Tañamo minimo de modales*****************/
+.modal-dialog.modal-normal {
+    max-width: 600px;
+}
+
+.modal-dialog.modal-700 {
+    max-width: 700px;
+}
+
+.modal-dialog.modal-800 {
+    max-width: 800px;
+}
+
+.modal-dialog.modal-xxl {
+    max-width: 94%;
+}
+/*------------************Style Modales Bootstrap--------************----*/
+
+/*------------************Style Bootstrap SideMenu--------************----*/
+.dropdown-toggle { outline: 0; }
+
+.btn-toggle {
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: var(--bs-emphasis-color);
+    background-color: transparent;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+    color: rgba(var(--bs-emphasis-color-rgb), .85);
+    background-color: var(--bs-tertiary-bg);
+}
+
+.btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+    background-color: #d2f4ea;
+}
+
+.scrollarea {
+    overflow-y: auto;
+}
+
+.collapse{
+    visibility: visible;
+}
+
+.btn-menu{
+    color: var(--bs-nav-link-color);
+    padding:var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+.btn-toggle-nav a {
+    padding:var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+/*------------************Style Bootstrap SideMenu--------************----*/
+
+/*------------************Style SideBar Expansible--------************----*/
+// .navbar-nav.side-nav
+.navbar-expand-lg #navbar-lateral {
+    flex-direction: column;
+}
+.leftmenutrigger, .navbar-nav li a .shortmenu {
+    display: none;
+}
+.margen-navbar-lateral {
+    margin-left: 0px;
+}
+@media(min-width:992px) {
+    .margen-navbar-lateral {
+        margin-left: 30px;
+    }
+    #navbar-lateral:hover {
+        left: 0;
+    }
+    .side-nav li a {
+        padding: 20px
+    }
+    .navbar-nav li a .shortmenu {
+        float: right;
+        display: block;
+        opacity: 1;
+    }
+    #navbar-lateral:hover li a .shortmenu {
+        opacity: 0;
+    }
+    #navbar-lateral {
+        background: var(--colorInstitucional1);
+        position: fixed;
+        top: 67px;
+        flex-direction: column !important;
+        left: -170px;
+        width: 200px;
+        overflow-y: auto;
+        bottom: 0;
+        overflow-x: hidden;
+        z-index: 10000;
+        border-radius: 0;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: fixed;
+    }
+    .nav-link.activaMenu {
+        border-radius: 0;
+    }
+    .dropdown-menu.show {
+        background: var(--colorInstitucional1);
+        position: fixed;
+        top: 67px;
+        flex-direction: column !important;
+        left: 200px;
+        overflow-y: auto;
+        bottom: 0;
+        overflow-x: hidden;
+        margin-top: 0px;
+        border-radius: 0;
+    }
+    a.nav-link {
+        color: var(--colorInstitucional4);
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    .side-nav li {
+        border-bottom: 0px !important;
+    }
+    .dropdown-item {
+        color: var(--colorInstitucional4);
+        white-space: unset;
+        padding-top: 2px !important;
+        padding-bottom: 1px !important;
+    }
+}
+.transicion {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.sin-transicion {
+    -o-transition: none !important;
+    -ms-transition: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+.navbar-nav li a svg {
+    font-size: 25px;
+    float: left;
+    margin: 0 10px 0 5px;
+}
+.side-nav li { 
+    border-bottom: 1px solid #50575d;
+}
+/*------------************Style SideBar Expansible--------************----*/
+
+.txt-shadow{
+text-shadow: 0 6px 5px rgba(0,0,0,1);
+}
+
+/* ===== Desktop ===== */
+.bg-logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: auto;
+    filter: drop-shadow(0 10px 4px rgba(0,0,0,1));
+    z-index: 10;
+}
+
+.bg-mujer{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: auto;
+    filter: drop-shadow(0 10px 4px rgba(0,0,0,1));
+    z-index: 10;
+}
+
+/* ===== Móvil ===== */
+.line{
+    background: linear-gradient(
+        to right,
+        rgba(149, 151, 153, 0.7) 0%,         /* completamente transparente a la izquierda */
+        rgba(225,225,225,0.7) 50%,      /* opaco al centro */
+        rgba(149, 151, 153,0.7) 100%        /* completamente transparente a la derecha */
+    );
+    backdrop-filter: blur(6px);              /* efecto vidrio */
+    -webkit-backdrop-filter: blur(6px);
+    width: 100vw;
+    padding: 12px 0;
+    position: fixed;                         /* barra fija arriba */
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.bg-logo2{
+     width: 200px;                            /* tamaño en móvil */
+    max-width: 90vw;                         /* evita que se desborde */
+    height: auto;
+    filter: drop-shadow(0 8px 4px rgba(0,0,0,.9));
+}
+
+
+
+@media(min-width:768px){
+    .line2{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+    to right,
+    rgba(149, 151, 153, 0.7) 0%,         /* completamente transparente a la izquierda */
+        rgba(225,225,225,0.7) 50%,      /* opaco al centro */
+        rgba(149, 151, 153,0.7) 100%        /* completamente transparente a la derecha */
+    );
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    width: 100vw;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+@media(max-width:639px){
+    .line2{
+    margin-top: 110px;
+    margin-bottom: 30px;
+    }
+}
+
+@media (min-height:847px){
+    // .line2{
+    // position: absolute;
+    // top: 130px;}
+}
