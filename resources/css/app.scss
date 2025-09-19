@@ -867,3 +867,10 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
 .bgo-institucional4 {
     background-color: #BC955B80;
 }
+
+.bg-fondo{
+    background-image: url("../../public/img/fondogrande.svg");
+    background-size: cover;        /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+}

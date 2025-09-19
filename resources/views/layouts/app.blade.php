@@ -24,7 +24,7 @@
     <body class="font-sans antialiased">
         <x-banner />
 
-        <div class="min-h-screen bg-gray-900">
+        <div class="min-h-screen bg-fondo">
             <header class="text-white pt-3 pb-1 bg-institucionalescudo">
                 <div class="container d-flex flex-row align-items-center">
                     <div class="bg-institucional4 mr-2 mb-2 rounded-3"><i class="fa-solid fa-book m-2"></i></div>
