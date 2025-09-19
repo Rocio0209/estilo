@@ -24,10 +24,10 @@
     <body class="font-sans antialiased">
         <x-banner />
 
-        <div class="min-h-screen bg-gray-100">
-            <header class="bg-dark text-white institucional pt-2">
-                <div class="container">
-                    <img  src="../../../public/img/Logo.svg" style="height:30px;"/>
+        <div class="min-h-screen bg-gray-900">
+            <header class="text-white pt-3 pb-1 bg-institucionalescudo">
+                <div class="container d-flex flex-row align-items-center">
+                    <div class="bg-institucional4 mr-2 mb-2 rounded-3"><i class="fa-solid fa-book m-2"></i></div>
                     <div class="col-6 col-lg-auto me-lg-auto justify-content-center mb-md-0 d-none d-sm-none d-md-block py-1">
                         <h2 style="font-size: 18px; " class="mb-0 text-white">{{ config('app.name') }} </h2>
                     </div>

@@ -1,6 +1,6 @@
 <nav x-data="{ open: false }" class="navbar navbar-expand-lg navbar-light menuinstitucional flex-wrap">
     <!-- Primary Navigation Menu -->
-    <div class="container container-fluid">
+    <div class="container container-fluid ">
             <div class="flex">
                 <!-- Logo -->
                 {{-- <div class="shrink-0 flex items-center">
