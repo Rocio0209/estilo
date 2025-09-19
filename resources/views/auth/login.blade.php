@@ -36,7 +36,7 @@
                 <x-label-black for="username" value="{{ __('Usuario') }}" />
                 <div class="col-auto">
                     <div class="input-group">
-                        <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/User.png" style="width:30px;"/></div>
+                        <div class="input-group-text"><i class="fa-solid fa-user"></i></div>
                         <input type="text" class="form-control bgo-institucional4" id="username" name="username" :value="old('username')"  required autofocus autocomplete="username" placeholder="">
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                 <x-label-black for="password" value="{{ __('Password') }}" />
                 <div class="col-auto">
                     <div class="input-group">
-                        <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/Password.png" style="width:30px;"/></div>
+                        <div class="input-group-text"><i class="fa-solid fa-key"></i></div>
                         <input type="password" class="form-control bgo-institucional4" id="password" name="password" required autocomplete="current-password" placeholder="">
                     </div>
                 </div>
@@ -68,7 +68,7 @@
 
                 <x-button class="ml-4" >
 
-                    <div class="text-black">Entrar</div> <img src="{{ env('CDNIMB') }}img/Entrar.png" style="height: 25px; margin-left:10px;"/>
+                    <div class="text-black">Entrar</div> <i class="fa-solid fa-right-to-bracket text-dark fa-2x "></i>
                 </x-button>
             </div>
         </form>
