@@ -18,7 +18,7 @@
         </x-slot>
 
         <x-slot name="titulo">
-            <div class="bg-institucional2" style="border-radius: 10px 10px 0 0"><h2 class="text-white my-0 px-3 font-institucional-b mt-2" >Iniciar Sesión</h2></div>
+            <div class="bg-institucionalfondo" style="border-radius: 10px 10px 0 0"><h2 class="text-black my-0 px-3 font-institucional-b mt-2" >Iniciar Sesión</h2></div>
         </x-slot>
 
         <x-validation-errors class="mb-4" />
@@ -33,7 +33,7 @@
             @csrf
 
             <div>
-                <x-label-white for="username" value="{{ __('Usuario') }}" />
+                <x-label-black for="username" value="{{ __('Usuario') }}" />
                 <div class="col-auto">
                     <div class="input-group">
                         <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/User.png" style="width:30px;"/></div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="mt-4">
-                <x-label-white for="password" value="{{ __('Password') }}" />
+                <x-label-black for="password" value="{{ __('Password') }}" />
                 <div class="col-auto">
                     <div class="input-group">
                         <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/Password.png" style="width:30px;"/></div>
@@ -55,19 +55,20 @@
             <div class="block mt-4">
                 <label for="remember_me" class="flex items-center">
                     <x-checkbox id="remember_me" name="remember" />
-                    <span class="ml-2 text-sm text-white">{{ __('Remember me') }}</span>
+                    <span class="ml-2 text-sm text-black">{{ __('Remember me') }}</span>
                 </label>
             </div>
 
             <div class="flex items-center justify-between mt-4">
                 @if (Route::has('password.request'))
-                    <a class="underline text-sm text-white hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
+                    <a class="underline text-sm text-black hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
                         <b>{{ __('Forgot your password?') }}</b>
                     </a>
                 @endif
 
-                <x-button class="ml-4">
-                    Entrar <img src="{{ env('CDNIMB') }}img/Entrar.png" style="height:25px; margin-left:10px;"/>
+                <x-button class="ml-4" >
+
+                    <div class="text-black">Entrar</div> <img src="{{ env('CDNIMB') }}img/Entrar.png" style="height: 25px; margin-left:10px;"/>
                 </x-button>
             </div>
         </form>

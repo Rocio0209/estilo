@@ -8,7 +8,7 @@
             {{ $titulo }}
         </div>
     @endisset
-    <div class="bg-institucional2 w-full sm:max-w-md px-6 py-4  shadow-md overflow-hidden sm:rounded-lg" @isset($titulo)
+    <div class="bg-institucionalfondo w-full sm:max-w-md px-6 py-4  shadow-md overflow-hidden sm:rounded-lg" @isset($titulo)
         style=" border-radius: 0px 10px 10px 10px; "
     @endisset >
         {{ $slot }}

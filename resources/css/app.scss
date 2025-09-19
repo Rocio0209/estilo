@@ -856,3 +856,10 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
      visibility: hidden;
 }
 }
+
+.bg-institucionalfondo {
+    background-image: url("../../public/img/fondo123.jpg");
+    background-size: cover;        /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+}
