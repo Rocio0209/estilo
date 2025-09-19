@@ -37,7 +37,7 @@
                 <div class="col-auto">
                     <div class="input-group">
                         <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/User.png" style="width:30px;"/></div>
-                        <input type="text" class="form-control bg-institucional10" id="username" name="username" :value="old('username')"  required autofocus autocomplete="username" placeholder="">
+                        <input type="text" class="form-control bgo-institucional4" id="username" name="username" :value="old('username')"  required autofocus autocomplete="username" placeholder="">
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                 <div class="col-auto">
                     <div class="input-group">
                         <div class="input-group-text"><img src="{{ env('CDNIMB') }}img/Password.png" style="width:30px;"/></div>
-                        <input type="password" class="form-control bg-institucional10" id="password" name="password" required autocomplete="current-password" placeholder="">
+                        <input type="password" class="form-control bgo-institucional4" id="password" name="password" required autocomplete="current-password" placeholder="">
                     </div>
                 </div>
             </div>
