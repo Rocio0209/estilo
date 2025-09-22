@@ -245,12 +245,12 @@
         </x-modal-form>
 
         <!-- Modal Para mostrar confirmación de eliminación-->
-        <x-modal-aviso id="eliminaModal" accionBtnClass="btn-danger" closeDataModalClass="btn-primary" modaltype="danger"
+        <x-modal-aviso id="eliminaModal" accionBtnClass="btn-rojo" closeDataModalClass="btn-primary" modaltype="danger"
             textTitle="¡Atención!" accionBtnTxt="Eliminar" closeDataModalTxt="Cancelar">
             <h6 class="text-danger">¿Estas seguro de eliminar el elemento?</h6>
         </x-modal-aviso>
         <!-- Modal para mostrar errores de validación-->
-        <x-modal-aviso id="validaModal" showOk=false closeDataModalClass="btn-danger" modaltype="danger"
+        <x-modal-aviso id="validaModal" showOk=false closeDataModalClass="btn-rojo" modaltype="danger"
             textTitle="¡Atención!"></x-modal-aviso>
         <!-- Modal para informar confirmación de acciones-->
         <x-modal-aviso id="confirmaModal" showOk=false closeDataModalClass="btn-verde"

@@ -956,3 +956,17 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     background-color: var(--colorInstitucional2);
     color: white;
 }
+
+.btn-rojo{
+    background-color: var(--colorInstitucional7);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 9px;
+}
+
+.btn-rojo:hover{
+    background-color: var(--colorInstitucional8);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 9px;
+}
