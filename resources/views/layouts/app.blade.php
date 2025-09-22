@@ -43,7 +43,8 @@
             @if (isset($header))
                 <header class="margen-navbar-lateral">
                     <div class="container headerpagina">
-                        <div class="py-2">
+                        <div class="py-2 d-flex flex-row align-items-center">
+                            <span class="cuadro-dorado"></span>
                             {{ $header }}
                         </div>
                     </div>

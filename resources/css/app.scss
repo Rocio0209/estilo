@@ -884,11 +884,22 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     border-bottom: var(--colorInstitucional4) 4px solid;
 }
 
+
 .section-title::before {
-      content: "";
-      width: 8px;
-      height: 20px;
-      background: var(--colorinstitucional4);
-      border-radius: 4px;
-      display: inline-block;
+    content: "";
+    width: 8px;
+    height: 20px;
+    background: var(--colorinstitucional4);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
+.cuadro-dorado {
+  display: inline-block;
+  width: 7px;          /* ancho */
+  height: 23px;         /* alto */
+  background-color: #b8860b; /* dorado (GoldenRod) */
+  border-radius: 5px;   /* esquinas redondeadas */
+  margin-right: 5px;    /* espacio con el texto */
 }
