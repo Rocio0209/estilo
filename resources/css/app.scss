@@ -104,7 +104,7 @@ a.nav-link {
 .dropdown-item:hover {
     color: #fff !important;
     text-decoration: none;
-    background-color: var(--colorInstitucional2) !important;
+    background-color: var(--colorInstitucional4) !important;
 }
 
 .nav-link.show {
@@ -694,7 +694,7 @@ a.activaMenu{
         position: fixed;
         top: 64px;
         flex-direction: column !important;
-        left: -170px;
+        left: -160px;
         width: 200px;
         overflow-y: auto;
         bottom: 0;
@@ -722,7 +722,7 @@ a.activaMenu{
         border-radius: 0;
     }
     a.nav-link {
-        color: var(--colorInstitucional4);
+        color: var(--colorInstitucional2);
         padding-top: 10px !important;
         padding-bottom: 10px !important;
     }
