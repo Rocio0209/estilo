@@ -378,8 +378,9 @@ table{
 
 table thead th{
     font-size: 12px;
-    background-color: var(--colorInstitucional1)!important;
-    color:white!important;
+    background-color: #00000000!important;
+    color:var(--colorInstitucional2)!important;
+    border-bottom: var(--colorInstitucional4) 4px solid!important;
 }
 
 table tfoot th{
