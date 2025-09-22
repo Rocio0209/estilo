@@ -25,7 +25,7 @@
         <x-banner />
 
         <div class="min-h-screen bg-fondo">
-            <header class="text-white pt-3 pb-1 bg-institucionalescudo">
+            <header class="text-white pt-3 pb-1 bg-institucionalescudo borde4">
                 <div class="container d-flex flex-row align-items-center">
                     <div class="bg-institucional4 mr-2 mb-2 rounded-3"><i class="fa-solid fa-book m-2"></i></div>
                     <div class="col-6 col-lg-auto me-lg-auto justify-content-center mb-md-0 d-none d-sm-none d-md-block py-1">

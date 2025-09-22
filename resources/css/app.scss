@@ -875,3 +875,8 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     background-position: center;   /* Centra la imagen */
     background-repeat: no-repeat;  /* Evita que se repita */
 }
+
+
+.borde4{
+    border-bottom: var(--colorInstitucional4) 4px solid;
+}
