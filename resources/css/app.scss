@@ -556,11 +556,13 @@ a.activaMenu{
 
 /****Colores de encabezados****/
 .modal-header.success{
-    border-top: solid 5px var(--bs-success);
+    border-top: solid 5px var(--colorInstitucional1);
+    border-bottom: solid 3px var(--colorInstitucional4);
 }
 
 .modal-header.danger{
-    border-top: solid 5px var(--bs-danger);
+    border-top: solid 5px var(--colorInstitucional7);
+    border-bottom: solid 3px var(--colorInstitucional4);
 }
 
 .modal-header.primary{
@@ -577,11 +579,11 @@ a.activaMenu{
 
 /****Colores de bordes****/
 .modal-content.b2success{
-    border: 2px solid var(--bs-success);
+    border: 2px solid var(--colorInstitucional1);
 }
 
 .modal-content.b2danger{
-    border: 2px solid var(--bs-danger);
+    border: 2px solid var(--colorInstitucional7);
 }
 
 .modal-content.b2primary{
@@ -924,4 +926,28 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     background-color: #c6cad0;
     border-radius: 8px;
     padding: 2px;
+}
+
+/* Paginación Bootstrap: colores de marca */
+.pagination .page-link { 
+  color: var(--colorInstitucional11);              /* texto normal */
+}
+
+.pagination .page-link:hover {
+    background-color:var(--colorInstitucional10);
+    color: black;              /* hover del texto normal */
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--colorInstitucional11);   /* activo */
+  border-color: var(--colorInstitucional11);       /* borde del activo */
+  color: #fff;                 /* texto del activo */
+}
+
+
+.btn-verde{
+    background-color: var(--colorInstitucional1);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 9px;
 }

@@ -10,7 +10,7 @@
             <div class="card-body">
                 {{ $dataTable->table() }}
                 @can('add_estados')
-                    <button id="agregar" type="button" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#modalData">Agregar</button>
+                    <button id="agregar" type="button" class="btn btn-verde"  data-bs-toggle="modal" data-bs-target="#modalData">Agregar</button>
                 @endcan
             </div>
         </div>
