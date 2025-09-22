@@ -80,7 +80,7 @@
 
             .accordion-button:not(.collapsed) {
                 background: var(--colorInstitucional3)!important;
-                color: white!important;
+                color: var(--colorInstitucional2)!important;
             }
         </style>
     @endpush
