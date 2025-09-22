@@ -899,7 +899,7 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
   display: inline-block;
   width: 7px;          /* ancho */
   height: 23px;         /* alto */
-  background-color: #b8860b; /* dorado (GoldenRod) */
+  background-color: var(--colorInstitucional4); /* dorado (GoldenRod) */
   border-radius: 5px;   /* esquinas redondeadas */
   margin-right: 5px;    /* espacio con el texto */
 }
