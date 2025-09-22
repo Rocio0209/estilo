@@ -883,3 +883,12 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
 .borde4{
     border-bottom: var(--colorInstitucional4) 4px solid;
 }
+
+.section-title::before {
+      content: "";
+      width: 8px;
+      height: 20px;
+      background: var(--colorinstitucional4);
+      border-radius: 4px;
+      display: inline-block;
+}
