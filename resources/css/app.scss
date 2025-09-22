@@ -911,3 +911,17 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
   border-radius: 5px;   /* esquinas redondeadas */
   margin-right: 5px;    /* espacio con el texto */
 }
+
+.modificar{
+    color: var(--colorInstitucional2);
+    background-color: #c6cad0;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.eliminar{
+    color: var(--colorInstitucional2);
+    background-color: #c6cad0;
+    border-radius: 8px;
+    padding: 2px;
+}
