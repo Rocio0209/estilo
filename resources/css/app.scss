@@ -74,7 +74,7 @@
 
 /** Estilos para MenÃº **/
 header.institucional {
-
+    background-image: url(../../public/img/Frameverde.svg) !important;
     background-repeat: no-repeat !important;
     /* background-blend-mode: multiply; */
     background-position: right !important;
@@ -169,13 +169,6 @@ h6 {
     background-blend-mode: initial !important;
 }
 
-.bg-institucionalbarra {
-    background-color: var(--colorInstitucional1);
-    background-image: url(../../public/img/Frameverde.svg) !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-blend-mode: initial !important;
-}
 
 .bg-institucional1 {
     background-color: var(--colorInstitucional1) !important;
