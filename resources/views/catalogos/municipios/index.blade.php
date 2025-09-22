@@ -10,7 +10,7 @@
             <div class="card-body">
                 {{ $dataTable->table() }}
                 @can('add_municipios')
-                    <button id="agregar" type="button" class="btn btn-success" data-bs-toggle="modal"
+                    <button id="agregar" type="button" class="btn btn-verde" data-bs-toggle="modal"
                         data-bs-target="#modalData">Agregar</button>
                 @endcan
             </div>
@@ -253,7 +253,7 @@
         <x-modal-aviso id="validaModal" showOk=false closeDataModalClass="btn-danger" modaltype="danger"
             textTitle="¡Atención!"></x-modal-aviso>
         <!-- Modal para informar confirmación de acciones-->
-        <x-modal-aviso id="confirmaModal" showOk=false closeDataModalClass="btn-success"
+        <x-modal-aviso id="confirmaModal" showOk=false closeDataModalClass="btn-verde"
             textTitle="Operación realizada correctamente."></x-modal-aviso>
     @endpush
 </x-app-layout>

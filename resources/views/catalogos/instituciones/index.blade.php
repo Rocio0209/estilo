@@ -10,7 +10,7 @@
             <div class="card-body">
                 {{ $dataTable->table() }}
                 @can('add_instituciones')
-                    <button id="agregar" type="button" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#modalData">Agregar</button>
+                    <button id="agregar" type="button" class="btn btn-verde"  data-bs-toggle="modal" data-bs-target="#modalData">Agregar</button>
                 @endcan
             </div>
         </div>
@@ -203,6 +203,6 @@
         <!-- Modal para mostrar errores de validación-->
         <x-modal-aviso id="validaModal" showOk=false closeDataModalClass="btn-danger" modaltype="danger" textTitle="¡Atención!"></x-modal-aviso>
         <!-- Modal para informar confirmación de acciones-->
-        <x-modal-aviso id="confirmaModal" showOk=false closeDataModalClass="btn-success" textTitle="Operación realizada correctamente."></x-modal-aviso>
+        <x-modal-aviso id="confirmaModal" showOk=false closeDataModalClass="btn-verde" textTitle="Operación realizada correctamente."></x-modal-aviso>
     @endpush
 </x-app-layout>

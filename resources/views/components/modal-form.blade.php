@@ -3,7 +3,7 @@
 'modaltype'=>'success',
 'classheader'=>'', 'classcontent'=>'', 'classfooter'=>'',
 'attrform'=>'', 'textTitle'=>'',
-'accionBtnTxt'=>'Guardar', 'accionBtnClass'=>'btn-success',
+'accionBtnTxt'=>'Guardar', 'accionBtnClass'=>'btn-verde',
 'closeDataModalTxt'=>'Cancelar', 'closeDataModalClass'=>'btn-secondary',
 'showGuardar'=>true, 'showCancelar'=>true,
 ])

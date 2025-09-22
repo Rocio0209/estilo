@@ -2,7 +2,7 @@
 'modaltype'=>'success',
 'classheader'=>'', 'classcontent'=>'', 'classmodal'=>'',
 'attrform'=>'', 'textTitle'=>'',
-'accionBtnTxt'=>'Aceptar', 'accionBtnClass'=>'btn-success',
+'accionBtnTxt'=>'Aceptar', 'accionBtnClass'=>'btn-verde',
 'closeDataModalTxt'=>'Cerrar', 'closeDataModalClass'=>'btn-secondary',
 'showOk'=>true, 'showCerrar'=>true,
 ])

@@ -951,3 +951,8 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     border-radius: 8px;
     padding: 5px 9px;
 }
+
+.btn-verde:hover{
+    background-color: var(--colorInstitucional2);
+    color: white;
+}
