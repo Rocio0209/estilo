@@ -970,3 +970,17 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
     border-radius: 8px;
     padding: 5px 9px;
 }
+
+.btn-gris{
+    background-color: var(--colorInstitucional5);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 9px;
+}
+
+.btn-gris:hover{
+    background-color: var(--colorInstitucional6);
+    color: white;
+    border-radius: 8px;
+    padding: 5px 9px;
+}

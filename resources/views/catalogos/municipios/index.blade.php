@@ -245,7 +245,7 @@
         </x-modal-form>
 
         <!-- Modal Para mostrar confirmación de eliminación-->
-        <x-modal-aviso id="eliminaModal" accionBtnClass="btn-rojo" closeDataModalClass="btn-primary" modaltype="danger"
+        <x-modal-aviso id="eliminaModal" accionBtnClass="btn-rojo" closeDataModalClass="btn-gris" modaltype="danger"
             textTitle="¡Atención!" accionBtnTxt="Eliminar" closeDataModalTxt="Cancelar">
             <h6 class="text-danger">¿Estas seguro de eliminar el elemento?</h6>
         </x-modal-aviso>
