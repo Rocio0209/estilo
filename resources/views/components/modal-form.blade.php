@@ -4,7 +4,7 @@
 'classheader'=>'', 'classcontent'=>'', 'classfooter'=>'',
 'attrform'=>'', 'textTitle'=>'',
 'accionBtnTxt'=>'Guardar', 'accionBtnClass'=>'btn-verde',
-'closeDataModalTxt'=>'Cancelar', 'closeDataModalClass'=>'btn-secondary',
+'closeDataModalTxt'=>'Cancelar', 'closeDataModalClass'=>'btn-gris',
 'showGuardar'=>true, 'showCancelar'=>true,
 ])
 

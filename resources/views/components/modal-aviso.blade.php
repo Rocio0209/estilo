@@ -3,7 +3,7 @@
 'classheader'=>'', 'classcontent'=>'', 'classmodal'=>'',
 'attrform'=>'', 'textTitle'=>'',
 'accionBtnTxt'=>'Aceptar', 'accionBtnClass'=>'btn-verde',
-'closeDataModalTxt'=>'Cerrar', 'closeDataModalClass'=>'btn-secondary',
+'closeDataModalTxt'=>'Cerrar', 'closeDataModalClass'=>'btn-gris',
 'showOk'=>true, 'showCerrar'=>true,
 ])
 
