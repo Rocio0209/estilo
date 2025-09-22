@@ -41,7 +41,7 @@
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow margen-navbar-lateral">
+                <header class="margen-navbar-lateral">
                     <div class="container headerpagina">
                         <div class="py-2">
                             {{ $header }}

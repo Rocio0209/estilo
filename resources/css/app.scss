@@ -690,9 +690,9 @@ a.activaMenu{
         opacity: 0;
     }
     #navbar-lateral {
-        background: var(--colorInstitucional1);
+        background: #ADC3BECC;
         position: fixed;
-        top: 67px;
+        top: 60px;
         flex-direction: column !important;
         left: -170px;
         width: 200px;
@@ -701,6 +701,7 @@ a.activaMenu{
         overflow-x: hidden;
         z-index: 10000;
         border-radius: 0;
+        border-right: var(--colorInstitucional4) 4px solid;
     }
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: fixed;
