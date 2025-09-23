@@ -32,7 +32,7 @@
             {{ __('Saved.') }}
         </x-action-message>
 
-        <x-button>
+        <x-button class="btn-verde">
             {{ __('Save') }}
         </x-button>
     </x-slot>

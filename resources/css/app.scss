@@ -939,47 +939,47 @@ text-shadow: 0 6px 5px rgba(0,0,0,1);
 
 
 .btn-verde{
-    background-color: var(--colorInstitucional1);
+    background-color: var(--colorInstitucional1) !important; 
     color: white;
     border-radius: 8px;
     padding: 5px 9px;
 }
 
 .btn-verde:hover{
-    background-color: var(--colorInstitucional2);
+    background-color: var(--colorInstitucional2) !important;
     color: white;
 }
 
 .btn-rojo{
-    background-color: var(--colorInstitucional7);
+    background-color: var(--colorInstitucional7) !important;
     color: white;
     border-radius: 8px;
     padding: 5px 9px;
 }
 
 .btn-rojo:hover{
-    background-color: var(--colorInstitucional8);
+    background-color: var(--colorInstitucional8) !important;
     color: white;
     border-radius: 8px;
     padding: 5px 9px;
 }
 
 .btn-gris{
-    background-color: var(--colorInstitucional5);
+    background-color: var(--colorInstitucional5) !important;
     color: white;
     border-radius: 8px;
     padding: 5px 9px;
 }
 
 .btn-gris:hover{
-    background-color: var(--colorInstitucional6);
+    background-color: var(--colorInstitucional6) !important;
     color: white;
     border-radius: 8px;
     padding: 5px 9px;
 }
 
 .bg-movil{
-    background-color: #ebe5e5;
+    background-color: #ebe5e5 !important;
     border-radius: 10px;
 }
 

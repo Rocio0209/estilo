@@ -15,7 +15,7 @@
             
             @if (Laravel\Fortify\Features::canUpdateProfileInformation())
                 @can('ver_perfil')
-                    <i id="tutorial_password" role="button" class="fa-solid fa-circle-info fa-2x text-primary {{ Auth::user()->changePass == 0 ? 'fa-beat' : '' }}"></i>
+                    <i id="tutorial_password" role="button" class="fa-solid fa-circle-info fa-2x color-institucional4 {{ Auth::user()->changePass == 0 ? 'fa-beat' : '' }}"></i>
                     @livewire('profile.update-profile-information-form')
 
                     <x-section-border />
