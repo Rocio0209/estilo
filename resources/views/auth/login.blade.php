@@ -71,6 +71,9 @@
                     <div class="text-black">Entrar</div> <i class="fa-solid fa-right-to-bracket text-dark fa-2x "></i>
                 </x-button>
             </div>
+            <div class="d-flex justify-content-center align-items-center w-full sm:max-w-xl mt-4">
+                <p class="text-center font-institucional-re sm:max-w-xl text-black" style="font-size:10px;">Sus datos personales (nombre y CURP) serán tratados de manera confidencial y utilizados únicamente para validar su identidad como parte del personal de la institución, conforme a la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados. Consulte el <span class="font-institucional-b">Aviso de Privacidad Integral.</span></p>
+            </div>
         </form>
     </x-authentication-card>
 </x-guest-layout>
